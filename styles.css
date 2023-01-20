@@ -1,0 +1,244 @@
+
+.topnav {
+    background-color: rgb(17, 179, 3);
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  .topnav p{
+    color: #f2f2f2;
+
+  }
+
+ 
+
+  
+  .containerDrop {  
+    background: rgb(190, 102, 102);
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      "drop drop drop"
+      ". . .";
+  }
+  
+  .drop { grid-area: drop; }
+
+  .logo {
+
+    border: 3px solid green;
+    float: left;
+    
+
+  
+   
+  
+}
+  
+#containerDOWN {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.aligned-div {
+    width: 50%;
+}
+
+.img-thumbnail{
+  height: 200px;
+}
+
+
+
+.container {
+  margin-left: -10px;
+  position:absolute;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  clear: both;
+}
+
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  clear: both;
+ 
+}
+.textvin{
+  margin-left: 190px;
+  position:absolute;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.form1{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(10%, -50%);
+ width: 500px;
+}
+
+.btn-success{
+  background-color:  rgb(17, 179, 3);
+}
+
+.form-control:focus {
+  border-color: #FF0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+.bg-color{
+  background-color: rgb(17, 179, 3);
+  color: white;
+  height: 60%;
+}
+
+.rules {
+  width: 60%;
+  height: 15%;
+  transform: translate(35%, 5%);
+}
+.borders1 {
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-color: white;
+border-width: 1px;
+padding-right: -30%;
+page-break-before: auto;
+}
+.icons{
+
+  transform: translateY(-150px);
+}
+
+.logos-alinhamento{
+  margin-right: 5px;
+}
+.footercolor{
+  color: black;
+}
+
+#rule-square {
+  border-radius: 0;
+} 
+
+.footer1{
+ padding: 0%;
+}
+
+.navtwo{
+  position: relative; 
+  left: -710px; 
+  font-weight: bold;
+  margin-top: -21px;
+  padding: 10px;
+}
+
+.box{
+  position: relative; 
+  left: 110px; 
+  margin-top: -30px;
+  font-weight: bold;
+}
+
+#navfirst{
+  height: -500px;
+  margin-bottom: -30px;
+}
+
+#navagain{
+  height: -500px;
+  margin-bottom: -30px;
+}
+
+.stick{
+  width: 78%;
+ margin-left: 130px;
+}
+
+#topicons{
+  margin-right: 150px;
+  
+
+
+ 
+}
+
+#topicons2{
+  margin-left:  420px;
+  width: 500px;
+position: absolute;
+
+}
+
+.white{
+  color: white;
+  font-size: small;
+  padding: 15px;
+ padding-block: 10px;
+}
